@@ -1,0 +1,51 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	padding: 30px;
+	background: black;
+}
+#wrapper{
+	margin: auto;
+	width: 500px;
+}
+#calc{
+	width: 290px;
+	height: 365px;
+	background-color: #f79b29;
+	margin: auto;
+	margin-top: 50px;
+	padding-top: 30px;
+}
+#head{
+	font-size: 45px;
+  text-align: center;
+  font-family: 'Oxygen Mono' ;
+ text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+}
+.buttons{
+	width: 50px;
+	height: 50px;
+	color: gold;
+	background: black;
+}
+#output{
+	width: 260px;
+	height: 50px;
+	background: grey;
+	padding-top: 3px;
+	margin: auto;
+	margin-bottom: 30px;
+    color: black;
+}
+#xyz{
+	width: 255px;
+	height: 45px;
+	background: grey;
+	margin: auto;
+}
+#buttons{
+	width: 230px;
+	margin-left: 40px;
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+	<head>
+		<title>javaScript Calculator</title>
+		<link rel='stylesheet' href='style.css'>
+	</head>
+	<body>
+		<div id='wrapper'>
+			<div id='heading'>
+				<h1 id="head">JavaScript Calculator</h1>
+			</div><!-- END OF HEADING -->
+			<div id='calc'>
+				<div id="xyz">
+					<h1 id='output'></h1>
+				</div>
+				<div id='buttons'>
+					<div id='row1'>
+						<input class='buttons' id='c' type='button' value='C' onclick='memoryClear();'>
+					</div><!--END OF ROW1-->
+					<div id='row2'>
+						<input class='buttons' id='seven' type='button' value='7' onclick='number(7);'>
+						<input class='buttons' id='eight' type='button' value='8' onclick='number(8);'>
+						<input class='buttons' id='nine' type='button' value='9' onclick='number(9);'>
+						<input class='buttons' id='divide' type='button' value='/' onclick='divide();'>
+					</div><!--END OF ROW2-->
+					<div id='row3'>
+						<input class='buttons' id='four' type='button' value='4' onclick='number(4);'>
+						<input class='buttons' id='five' type='button' value='5' onclick='number(5);'>
+						<input class='buttons' id='six' type='button' value='6' onclick='number(6);'>
+						<input class='buttons' id='multiply' type='button' value='X' onclick='multiply();'>
+					</div><!--END OF ROW3-->
+					<div id='row4'>
+						<input class='buttons' id='one' type='button' value='1' onclick='number(1);'>
+						<input class='buttons' id='two' type='button' value='2' onclick='number(2);'>
+						<input class='buttons' id='three' type='button' value='3' onclick='number(3);'>
+						<input class='buttons' id='minus' type='button' value='-' onclick='minus();'>
+					</div><!--END OF ROW4-->
+					<div id='row5'>
+						<input class='buttons' id='period' type='button' value='.' onclick='number(".");'>
+						<input class='buttons' id='zero' type='button' value='0' onclick='number(0);'>
+						<input class='buttons' id='equals' type='button' value='=' onclick='equals();'>
+						<input class='buttons' id='add' type='button' value='+' onclick='add();'>
+					</div><!--END OF ROW5-->
+				</div><!-- END OF BUTTONS -->
+			</div><!-- END OF calc -->
+		</div><!-- END OF WRAPPER -->
+        <script src="calculator.js"></script>
+	</body>
+</html>
